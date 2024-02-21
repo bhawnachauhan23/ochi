@@ -49,15 +49,13 @@ function About() {
         </div>
         <motion.div
           style={{
-            
             scale: isHovered ? 0.95 : 1,
             transition: {
-              
               duration: 5,
               ease: "easeIn",
             },
           }}
-          className="w-1/2 h-[70vh] rounded-2xl bg-[url('./Homepage-Photo.jpg')]"></motion.div>
+          className="w-1/2 h-[70vh] rounded-2xl bg-[url('https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg')]"></motion.div>
       </div>
     </div>
   );
